@@ -1,0 +1,102 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html {
+  --color-text: white;
+  --color-background: lightgray;
+  --color-primary: #01579b;
+  --color-secondary: #bedcff;
+  --color-accent: #c96f53;
+  --font-family: fenwick, sans-serif;
+  --gutter: 16px;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-primary);
+  align-items: center;
+  justify-content: start;
+  font-family: var(--font-family);
+}
+
+.App-header {
+  font-size: 50px;
+  color: var(--color-text);
+  /* font-family: var(--font-family); */
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 100px;
+}
+
+.accentIcon {
+  color: var(--color-accent);
+}
+
+.secondaryIcon {
+  color: var(--color-secondary);
+}
+
+.frontLogo {
+  font-size: 80px;
+  margin: 15px 0 150px 0;
+}
+
+.primaryButton {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  font-size: 25px;
+  font-family: var(--font-family);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.28);
+  border: none;
+  height: 65px;
+  width: 220px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.doubleChoiceWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.doubleChoice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.doubleChoiceHeader {
+  color: var(--color-text);
+  font-size: 25px;
+}
+
+.doubleChoiceIcon {
+  font-size: 90px;
+  margin: 30px 0;
+}
